@@ -119,7 +119,7 @@ public class Main {
             }
 
             int tens1 = res/10;
-            int tens = res%100;
+            int tens = (res%100)/10;
             int units = res%10;
 
             return Tens(tens1)+Tens(tens)+Units(units);
